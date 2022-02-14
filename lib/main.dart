@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:new_task/home.dart';
+import 'package:new_task/home/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'My Github Repos'),
+      home: const MyHomePage(title: 'Refer app'),
     );
   }
 }
